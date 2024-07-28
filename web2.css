@@ -1,0 +1,43 @@
+.parent{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 200px auto;
+    
+}
+.ch1{
+    background-color: black;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+ul li{
+    list-style-type: none;
+    padding: 0px 0px 50px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.h1{
+    text-align: center;
+}
+.ch1 button{
+    padding-left:20px 0px 50px 0px;
+    font-size: 30px;
+}
+.ch2{
+    background-color: yellow;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.ch3 th{
+    padding: 80px 50px 50px 50px;
+    background-color: antiquewhite;
+    border-radius: 2px solid;
+    
+}
+.ch3 td{
+    padding: 80px 50px 50px 50px;
+    background-color: beige;
+}
